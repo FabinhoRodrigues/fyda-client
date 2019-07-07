@@ -1,0 +1,14 @@
+{
+  "name": "fyda-client",
+  "authors": [
+    "Fabio Rodrigues <fabio.le.rodrigues@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.7.8"
+  }
+}
