@@ -33,6 +33,7 @@ private usuarioForm : UsuarioForm = new UsuarioForm();
   listar(){
     this.loginService.listar()
     .subscribe(dados => this.usuario = dados);
+   
   }
 
 }
