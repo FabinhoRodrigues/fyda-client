@@ -1,0 +1,74 @@
+<head>
+<style >  
+body{
+ position:absolute;
+ background-color:black;
+ height:100%; 
+ width:100%;
+}
+.imagem{
+ margin-left: 200px;
+ margin-right: 200px;
+}
+.form-horizontal{
+ position: absolute;
+ top: 63%;
+ left: 50%;
+ transform: translateY(-50%) translateX(-50%);
+ color:aliceblue; 
+}
+
+</style> 
+</head>
+
+
+
+<!-- <h1>Usuarios</h1>
+
+
+<ul>
+    <li *ngFor='let u of usuario'>
+        {{u.email}}
+    </li>
+</ul> -->
+
+<body>
+      <img src="/assets/thinking.jpg" class="imagem" /> 
+        
+      <form class="form-horizontal">
+            <fieldset>
+
+              <div id="legend">
+                <legend class="">Login</legend>
+              </div>
+
+              <div class="control-group .input-xxlarge">
+                <!-- Username -->
+                <label class="control-label">Username</label>
+                <div class="controls">
+                  <input  [(ngModel)]="usuarioForm.email" type="text" id="email" name="email" >
+                </div>
+              </div>
+
+              <div class="control-group">
+                <!-- Password-->
+                <label class="control-label">Password</label>
+                <div class="controls">
+                  <input [(ngModel)]="usuarioForm.senha" type="password"  id="senha" name="senha">
+                </div>
+              </div>
+
+              <div class="control-group">
+                <!-- Button -->
+                <div class="controls">
+                  <button class="btn btn-success" type="submit" (click)="logar()" >Login</button>
+                </div>
+              </div>
+
+            </fieldset>
+          </form>
+    
+</body>
+  
+           
+
